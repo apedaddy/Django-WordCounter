@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Word Counter</title>
 </head>
 <body>
+<h1> This website will count words</h1>
+<h2> <a href=""{% url 'count' %}>About Me</a></h2>
+<p>Please type sentence(s) in the text area:</p>
+<form action="{% url 'count' %}">
+    <textarea cols = "55" rows="5" name = "fulltext"> </textarea>
+    <br>
+    <input type="submit" value="Count Words!" />
+</form>
 
 </body>
 </html>
