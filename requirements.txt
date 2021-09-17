@@ -4,4 +4,4 @@ psycopg2==2.8.3
 psycopg2-binary==2.8.3
 pytz==2019.1
 sqlparse==0.3.0
-testdep==0.1.9
+testdep==0.1.8
